@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+    <title>Angular Routing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/eye.png">
+</head>
+<body>
+    <nav>
+        <a href="#!/">Home</a>
+        <a href="#!/gorilla">Gorilla</a>
+        <a href="#!/duck">Duck</a>
+    </nav>
+    <main>
+        
+        <ng-view></ng-view>
+
+    </main>
+
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+</body>
+</html>
